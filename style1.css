@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("assets/backimg.png");
+    background-size: cover;
+    color: white;
+}
+
+/* HEADER PART */
+
+header {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+}
+
+.heading {
+    /* font-family: kotta one; */
+    background-color: rgba(250, 161, 0, 1);
+    border-radius: 10px;
+    margin-top: 2%;
+    padding: 4%;
+    padding-top: 1%;
+    height: 1%;
+    border: 5px solid rgba(255, 212, 134, 1);
+}
+
+button {
+    margin-right: 90px;
+    margin-top: 40px;
+    width: 7%;
+    height: 25%;
+    background-color: rgba(250, 161, 0, 1);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button h4 {
+    font-size: medium;
+}
+
+/* MAIN CONTAINER STYLING  */
+
+.main-container {
+    /* border: 1px solid red; */
+    margin-top: 10%;
+    width: fit-content;
+    margin-left: 150px;
+}
+
+.main-container h1 {
+    font-size: 70px;
+}
+
+#color {
+    color: rgba(250, 161, 0, 1);
+}
+
+.recipes-btn {
+    background-color: rgba(250, 161, 0, 1);
+    border: 5px solid rgba(255, 212, 134, 1);
+    border-radius: 30px;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 1000px;
+    margin-top: 50px;
+    cursor: pointer;
+}

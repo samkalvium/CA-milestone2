@@ -1,0 +1,210 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("assets/backimg.png");
+    background-size: cover;
+    color: white;
+}
+
+/* HEADER PART */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+}
+
+.heading {
+    /* font-family: kotta one; */
+    background-color: rgba(250, 161, 0, 1);
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 10%;
+    padding: 4%;
+    padding-top: 1%;
+    height: 1%;
+    border: 5px solid rgba(255, 212, 134, 1);
+}
+
+.nav {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav img {
+    margin-top: 11%;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 40px;
+    width: 27%;
+    height: 25%;
+    background-color: rgba(250, 161, 0, 1);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button h4 {
+    font-size: medium;
+}
+
+
+/* ADDING STYLE FOR THE TOP CONTAINER  */
+
+.top-container {
+    background-color: rgba(255, 166, 0, 0.404);
+    border-top: 5px solid rgba(250, 161, 0, 1);
+    border-left: 5px solid rgba(250, 161, 0, 1);
+    border-right: 5px solid rgba(250, 161, 0, 1);
+    margin: 10px;
+    margin-top: 20px;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mid-top input {
+    border: 5px solid rgba(250, 161, 0, 1);
+    width: 300px;
+    height: 40px;
+}
+
+.mid-top {
+    text-align: center;
+    font-size: 20px;
+    padding-right: 8%;
+}
+
+.img-mid-top {
+    margin-left: -30px;
+    position: absolute;
+    top: 25.5%;
+    cursor: pointer;
+}
+
+
+/* ADDING STYLE FOR THE MIDDLE CONTAINER  */
+
+.middile-container {
+    background-color: rgba(255, 166, 0, 0.404);
+    border-left: 5px solid rgba(250, 161, 0, 1);
+    border-right: 5px solid rgba(250, 161, 0, 1);
+    margin: 10px;
+    margin-top: 0.5%;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height:280px;
+}
+
+.item h3 {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    font-size: 30px;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.slogan {
+    width: 250px;
+    padding-top: 5%;
+    font-size: 35px;
+}
+
+/* STYLING THE POPUP */
+.modal {
+    width: 900px;
+    height: fit-content;
+    background-image: url(assets/backimg-ing.png);
+    background-size: cover;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    padding: 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s;
+}
+
+.showpop {
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.style-ingrds {
+    font-size: 23px;
+}
+
+.style-ingrds h3 {
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+.style-ingrds ul {
+    text-align: left;
+}
+
+.exit {
+    position: absolute;
+    top: 80%;
+    right: 3%;
+    width: 50px;
+    height: 30px;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* ADDING STYLE FOR THE LAST CONTAINER  */
+
+.bottom-container{
+    background-color: rgba(255, 166, 0, 0.404);
+    border-left: 5px solid rgba(250, 161, 0, 1);
+    border-right: 5px solid rgba(250, 161, 0, 1);
+    border-bottom: 5px solid rgba(250, 161, 0, 1);
+    margin: 10px;
+    margin-top: 0.5%;
+    padding-top: 1%;
+}
+
+.bottom-container h1{
+    padding-bottom: 20px;
+   text-align: center;
+}
+
+/* IMAGES PART  */
+.search-imgs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+.search-imgs img {
+    cursor: pointer;
+}
+
+.catoimgs {
+    width: 250px;
+    height: 40vh;
+}
+
